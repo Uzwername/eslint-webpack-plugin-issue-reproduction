@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "sourceMap": true,
+    "module": "NodeNext",
+    "lib": ["ESNext"],
+    "moduleResolution": "NodeNext",
+    "esModuleInterop": true,
+    "target": "ESNext",
+    "strict": true,
+    "paths": {
+      "@/*": [
+        "./src/*",
+      ],
+      "$root/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": ["./src/"]
+}
